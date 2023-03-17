@@ -4,7 +4,7 @@ if [ "$EUID" -ne 0 ]
 then echo "Executer ce script en tant qu'administrateur"
 exit
 fi
-    # Installation de vsftpd
+    # Installation de pure-ftpd
 apt update
 apt install filezilla
 apt install pure-ftpd -y
